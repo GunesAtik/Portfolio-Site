@@ -6,17 +6,18 @@
 */
 
 body {
-background-color: #E9967A;
+background-color: #FFF0F5;
 font-family: 'Raleway', sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.6;
-color: #2F4F4F;
+color: #0000FF;
 }
 
 h1 {
   font-size: 30px;
   font-weight: 500;
+  text-align: center;
 }
 
 h2 {
@@ -30,11 +31,11 @@ h3 {
 }
 
 a {
-  color: #2F4F4F;
+  color: #0000FF;
 }
 
 a:visited {
-  color: #05676e;
+  color: #0000FF;
 }
 
 a:hover {
@@ -69,7 +70,8 @@ button {
   /* takes the font from the outer container */
   font-family: inherit;
   /* styles the background color, font color, and text decoration (underline, etc.) of the button */
-  background-color: #FFDAB9;
+  background-color: #D8BFD8;
+  color: #0000FF;
   text-decoration: none;
   /*adds spacing to the button (this will be discussed more in-depth later) */
   padding: 10px;
@@ -92,8 +94,8 @@ button {
 }
 
 .button__secondary {
-  background-color: #FFDAB9;
-  color: #2F4F4F;
+  background-color: #D8BFD8;
+  color: #0000FF;
 }
 
 button:hover, button:focus {
@@ -121,8 +123,8 @@ button:hover, button:focus {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   text-align: center;
 }
 
@@ -154,8 +156,8 @@ button:hover, button:focus {
 
 .page-header__item:last-child {
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
   text-align: right;
 }
 
@@ -175,6 +177,25 @@ button:hover, button:focus {
   list-style-type: none;
   }
 
+.container {
+ max-width: 400px;
+ margin: 0 auto;
+ text-align: center;
+ border-radius: 5px;
+ padding: 20px;
+}
+
+.container__item {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
 /* start grid fallback */
 .grid__item {
  display: inline-block;
@@ -193,7 +214,7 @@ button:hover, button:focus {
 }
 
 .grid__item {
-  background-color: #FFDAB9;
+  background-color: #D8BFD8;
   width: auto;
   min-height: auto;
   margin: 0;

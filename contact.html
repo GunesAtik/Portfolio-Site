@@ -2,9 +2,8 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Günes' Portfolio</title>
-  <link rel="shortcut icon" href="img/favicon.png">
+  <link rel="shortcut icon" href="img/favicon.png" alt="Favicon">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/style.production.css">
@@ -21,32 +20,34 @@
       </ul>
     </nav>
   </header>
-  <div>
-    <h1>Contact</h1>
-    <form action="placeholder" method="post" id="contact-form">
-      <label class="standard-label" for="contact-email">Email:</label>
-      <input type="email" id="contact-email" required><br>
-      <label class="standard-label" for="contact-telephone">Telephone:</label>
-      <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="contact-telephone"><br>
-      <label class="standard-label" for="contact-message">Message: </label>
-      <textarea maxlength="240" id="contact-message" required></textarea><br>
-      <input type="submit" value="Send message">
-    </form><br><br>
-    <p>Günes Atik<br>Königsteiner Str. 61a<br>65929 Frankfurt<br>Germany<br><br>
-    </p>)
-    Tel <a href="tel:+491786616838">+49 178 6616838</a><br>
-    Skype <a href="skype:guenes_atik">live:guenes_atik</a><br>
-    E-Mail <a href="mailto:guenes_atik@hotmail.de">guenes_atik@hotmail.de</a><br>
-    <a href="mailto:guenes_atik@hotmail.de">Contact me</a><br>
+  <div class="container">
+  <h1>Contact</h1>
+  <form action="" method="post" id="contact-form">
+    <label class="standard-label" for="contact-email">Email:</label>
+    <input type="email" id="contact-email" required class="container__item"><br>
+    <label class="standard-label" for="contact-telephone">Telephone: </label>
+    <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="contact-telephone" class="container__item"><br>
+    <label class="standard-label" for="contact-message">Message: </label>
+    <textarea maxlength="240" id="contact-message" required class="container__item"></textarea><br>
+    <input type="submit" value="Send message" class="button">
+  </form>
   </div>
-  <footer class="page-footer">
-    <p>Find me on</p>
-    <div>
-      <img src="img/icon-github.svg" width="30" height="30" alt="Github">
-      <img src="img/icon-twitter.svg" alt="Twitter" width="30" height="30">
-      <img src="img/icon-linkedin.svg" alt="LinkedIn" width="30" height="30">
-    </div>
-  </footer>
+  <br><br>
+  <footer class="container">
+   Günes Atik<br>
+   Königsteiner Str. 61a<br>
+   65929 Frankfurt<br>
+   Germany<br>
+   <br>
+   Tel <a href="tel:+49 178 6616838">+49 178 6616838</a><br>
+   Skype <a href="skype:guenes_atik">live:guenes_atik</a><br>
+   E-Mail <a href="mailto:guenes_atik@hotmail.de">guenes_atik@hotmail.de</a><br>
+   <a href="mailto:guenes_atik@hotmail.de">Contact me</a><br>
+   <p>Find me on</p>
+   <img src="img/icon-github.svg" width="30px" height="30" alt="Github">
+   <img src="img/icon-twitter.svg" alt="Twitter" width="30" height="30">
+   <img src="img/icon-linkedin.svg" alt="LinkedIn" width="30" height="30">
+ </footer>
  <script src="js/tota11y.min.js"></script>
 </body>
 </html>
