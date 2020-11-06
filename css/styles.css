@@ -137,6 +137,13 @@ button:hover, button:focus {
   margin-left: 15px;
 }
 
+.page-body {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  list-style-type: none;
+  }
+
 .about {
   max-width: 700px;
   margin: 0 auto;

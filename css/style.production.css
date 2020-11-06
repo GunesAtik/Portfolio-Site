@@ -195,7 +195,12 @@ button:hover, button:focus {
   margin-bottom: 16px;
   resize: vertical
 }
-
+  .page-body {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    list-style-type: none;
+    }
 /* start grid fallback */
 .grid__item {
  display: inline-block;
